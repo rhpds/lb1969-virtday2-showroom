@@ -16,6 +16,55 @@
 
 === Hotplug compute resources (cpu/memory)
 
+. Make sure you on on project *vms-aap-day2*
+
+. Select *Catalog* > *Template catalog* > *CentOF Steam 9 VM*
++
+image::day-to-day/deploy_vm.png[]
++
+
+. Leave default and Click  *Quick create VirtualMachine*.
++
+image::day-to-day/custom_new.png[]
++
+
+. This will take approximately 5 minutes to deploy.
+
+. Once the VM is created Click on *Configuration* tab, Click on *1 CPU | 2GiB Memory*.
++
+image::day-to-day/new_vm_select.png[]
++
+
+. Change vCPU to *2* and Memory to *4*. And Click *Save*.
++
+image::day-to-day/change_resource_count.png[]
++
+
+. Click on *Overview*. You will see the CPU and Memory count has doubled.
++
+image::day-to-day/verify_vm.png[]
++
+
+. Select *rhel9-vm1*
++
+image::day-to-day/select_1.png[]
++
+
+. Click on *Configuration* tab, Click on *1 CPU | 2GiB Memory*.
++
+image::day-to-day/rhel_vm.png[]
++
+
+. Select *large: 2 CPUs, 8Gi Memory* and Click *Save*.
++
+image::day-to-day/change_vm.png[]
++
+
+. Click on *Overview*. You will see the CPU and Memory count has increased.
++
+image::day-to-day/verify_rhel.png[]
++
+
 === Enable Swap/Memory Overcommit
 
 == New gear arrives
